@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    
+    <div style="display:flex; ">
+
+            <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+                <img src="Screenshot1.png" style="width:100%;height: 100%;"/>
+            </div>
+
+            <div>
+                <p style="padding-left:40px;padding-top: 70px;line-height: 1.56;"><span style="font-weight: bold;">We learnt so much at CodeQuotient Academy.</span> The best part is that they show you the path to reach the solution rather than showing the solution itself. The project-based learning helped me a lot to strengthen my basics and to learn everything to the depth! </p>
+            </div>
+    </div>
+       <div style="text-align: right;"><p>Rahul Kamboj <br> Tech Lead, 1mg</p> </div>
+       
+  </div>
+  
+<div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    
+    <div style="display:flex; ">
+
+            <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+                <img src="163.jfif" style="width:100%;height: 100%;"/>
+            </div>
+
+            <div>
+                <p style="padding-left:40px;padding-top: 70px;line-height: 1.56;"><span style="font-weight: bold;">CodeQuotient has had a great impact on my career in the tech industry. </span> One Best thing I liked about CodeQuotient is that they take time to teach the logic behind the code.Currently, I'm working as a Senior Staff Engineer at Palo Alto networks, and a lot of the credit goes to Arun sir and all other mentors in CodeQuotient. </p>
+            </div>
+    </div>
+       <div style="text-align: right;"><p>Sameer Garg<br>
+        Palo Alto networks </p> </div>
+       
+  </div>
+  <div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    
+    <div style="display:flex; ">
+
+            <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+                <img src="ravish.jpg" style="width:100%;height: 100%;"/>
+            </div>
+
+            <div>
+                <p style="padding-left:40px;padding-top: 70px;line-height: 1.56;"><span style="font-weight: bold;">I found the program to be very high quality, </span> The thing I liked the most about CodeQuotient was the attitude of the mentors and the mentors made sure we get the best exposure possible and they were always eager to solve our doubts and queries. The curriculum and the exam schedule were also well thought out. Overall, a great experience. </p>
+            </div>
+    </div>
+       <div style="text-align: right;"><p>Ravish Sharma<br>
+        Tekion Corp</p> </div>
+       
+  </div>
+  
+  <div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    
+    <div style="display:flex; ">
+
+            <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+                <img src="Yogesh.jfif" style="width:100%;height: 100%;"/>
+            </div>
+
+            <div>
+                <p style="padding-left:40px;padding-top: 70px;line-height: 1.56;"><span style="font-weight: bold;">I'm indebted to every mentor of CodeQuotient who has guided me throughout the course and through my placement process. </span> Another great achievement was the network of like-minded friends that I developed during the course. I'd 100% recommend this program to every aspiring software engineer like me.. </p>
+            </div>
+    </div>
+       <div style="text-align: right;"><p>Yogesh Bhardwaj<br>
+        Mika</p> </div>
+       
+  </div>
+  
+  <div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    
+    <div style="display:flex; ">
+
+            <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+                <img src="vishal.png" style="width:100%;height: 100%;"/>
+            </div>
+
+            <div>
+                <p style="padding-left:40px;padding-top: 70px;line-height: 1.56;"><span style="font-weight: bold;">During this whole Program at CodeQuotient, I got in-depth insights into web development which helped me understand it in the true sense of words.  </span> This learning also helped me during technical interviews for various companies later on. At last, I would like to say that CodeQuotient is easily one of the best out there for hardworking and sincere students! </p>
+            </div>
+    </div>
+       <div style="text-align: right;"><p>Vishal Garg<br>
+        Capilliary Technologies </p> </div>
+       
+  </div>
+
+  <div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    
+    <div style="display:flex; ">
+
+            <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+                <img src="Dipanshu.jpg" style="width:100%;height: 100%;"/>
+            </div>
+
+            <div>
+                <p style="padding-left:40px;padding-top: 70px;"><span style="font-weight: bold;line-height: 1.56;">The kind of support I got from CodeQuotient was terrific </span> and the mentors at CodeQuotient are hard working and always give their best. Project-based learning makes the Supercoders program unique even the Communication from management was clear. The Supercoders program made me employment ready and a big thanks to my College faculty who encouraged me to join CodeQuotient. </p>
+            </div>
+    </div>
+       <div style="text-align: right;"><p>Dipanshu Dixit<br>
+        Mirra Healthcare</p> </div>
+       
+  </div>
+
+  <div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    
+    <div style="display:flex; ">
+
+            <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+                <img src="subham.png" style="width:100%;height: 100%;"/>
+            </div>
+
+            <div>
+                <p style="padding-left:40px;padding-top: 70px;"><span style="font-weight: bold;line-height: 1.56;">I had strong JavaScript skills by the time I completed the three-month SuperCoder program. </span> As a student of Supercoders, the advanced data structures we learned gave me the confidence to integrate dynamic programming and graph theory into my own projects. I didn't have much understanding of Data Structures before the program. After this program, I can say with conviction that I can face any interview with confidence and pass with flying colours! </p>
+            </div>
+    </div>
+       <div style="text-align: right;"><p>Shubham Sharma<br>
+        Meritech Solutions</p> </div>
+       
+  </div>
+  
+  <div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    
+    <div style="display:flex; ">
+
+            <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+                <img src="Devyani.png" style="width:100%;height: 100%;"/>
+            </div>
+
+            <div>
+                <p style="padding-left:40px;padding-top: 70px;line-height: 1.56;">I'm very satisfied with the whole experience. The one-to-one sessions made a huge impact—just the peace of mind that someone who can answer these queries can help you and is there for you. I understand development now. I knew development earlier, but what I loved about this course was that it helped me with a new perspective on how things happen, the practical aspect of it - how we do things, you know? The idea of WE DOING THINGS?<span style="font-weight: bold;"> They told us that "we will help with placements", and they weren't just words. </span>  </p>
+            </div>
+    </div>
+       <div style="text-align: right;"><p>Devyani<br>
+        Indus Valley Partners</p> </div>
+       
+  </div>
+  <div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    
+    <div style="display:flex; ">
+
+            <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+                <img src="barza.png" style="width:100%;height: 100%;"/>
+            </div>
+
+            <div>
+                <p style="padding-left:40px;padding-top: 70px;line-height: 1.56;"> <span style="font-weight: bold;"> The support from the mentors and Arun sir kept me motivated to continue. </span> The faculty at CodeQuotient is very cooperative, and they never hesitated to clear any doubts. The mentors and teachers are very well-trained. If we had any issues or doubts, they would organise sessions for us individually. I never missed a deadline for any projects, completed things on time all because of CodeQuotient’s dedication towards us. </p>
+            </div>
+    </div>
+       <div style="text-align: right;"><p>Barza Amir<br>
+        FarMart</p> </div>
+       
+  </div>
+  <div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    
+    <div style="display:flex; ">
+
+            <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+                <img src="Shivam.jpg" style="width:100%;height: 100%;"/>
+            </div>
+
+            <div>
+                <p style="padding-left:40px;padding-top: 70px;line-height: 1.56;"> <span style="font-weight: bold;"> I really liked the mentoring process at CodeQuotient, </span> especially how the problems were addressed and how teachers helped in debugging the code, and all was the best part of learning from CodeQuotient. The mentors gave us the right amount of pressure and motivation, which helped us a lot. Overall was a great learning experience and all the mentors were highly qualified. With the help of CodeQuotient, I got placed. </p>
+            </div>
+    </div>
+       <div style="text-align: right;"><p>Shivam Guglani<br>
+        Capilliary Technologies</p> </div>
+       
+  </div>
+  <div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+  <div style="display:flex; ">
+
+    <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+        <img src="Baljeet.jpeg"style="width:100%;height: 100%;"/>
+    </div>
+
+    <div>
+        <p style="padding-left:40px;padding-top: 70px;line-height: 1.56;"> CodeQuotient's faculty is highly cooperative. I was apprehensive when I joined CodeQuotient, and I wasn't sure if I would get placed. Gradually, with the support of CodeQuotient, I built confidence in myself and felt everything would turn out well, and <span style="font-weight: bold;"> this program has provided me with the opportunity to work at a well-established company, and I am very thankful for that. </span>  </p>
+    </div>
+</div>
+<div style="text-align: right;"><p>Baljeet Singh<br>
+    Capilliary Technologies</p> </div>
+
+</div>
+<div class="mySlides fade" style="background-color: #ffeee5;padding-right: 10px;">
+    <div style="display:flex; ">
+  
+      <div style="width: 300px;height: 200px;padding-top: 40px;padding-left: 20px;">
+          <img src="Rajkumar.jpg"style="width:100%;height: 100%;"/>
+      </div>
+  
+      <div>
+          <p style="padding-left:40px;padding-top: 70px;line-height: 1.56;"><span style="font-weight: bold;">The way CodeQuotient approached modules and one to one sessions helped me a lot. </span>  I don’t think I would have managed to get a tech profile without CodeQuotient's assistance. Even during the placement time, the kind of effort mentors had put in was exceptional. Overall, an amazing experience. </p>
+      </div>
+  </div>
+  <div style="text-align: right;"><p>Raj kumar<br>
+    Fifth Note</p> </div>
+  
+  </div>
+<div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+</div>
+
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
